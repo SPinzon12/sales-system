@@ -1,0 +1,10 @@
+api/bin
+api/obj
+frontend/node_modules
+frontend/dist
+*.user
+*.suo
+.vs
+.git
+.gitignore
+README.md

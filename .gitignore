@@ -1,0 +1,41 @@
+# Logs
+logs/
+*.log
+
+# Dependencias
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+bin/
+obj/
+out/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Base de datos
+*.db
+*.db-shm
+*.db-wal
+
+# Docker
+.env.local
+
+# Secrets
+*.pem
+*.key
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
