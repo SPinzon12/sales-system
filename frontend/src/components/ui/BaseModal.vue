@@ -1,7 +1,7 @@
 <template>
   <Teleport to="body">
     <Transition name="modal">
-      <div v-if="show" class="modal-overlay" @click.self="close">
+      <div v-if="show" class="modal-overlay">
         <div class="modal-container" :class="`modal-container--${size}`">
           <div class="modal-header">
             <div class="modal-title">
